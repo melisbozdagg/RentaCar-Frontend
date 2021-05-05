@@ -1,0 +1,15 @@
+
+<table *ngIf="dataLoaded"  class="table table-striped table-secondary">
+    <thead>
+        <tr class="table-secondary">
+            <th>Marka Id:</th>
+            <th>Marka İsmi:</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let brand of brand" class="table-secondary">
+                <td>{{brand.id}}</td>
+                <td>{{brand.name}}</td>
+            </tr>
+        </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table class="table table-striped table-success">
+    <thead>
+        <tr class="table-success">
+            <th>Color Id:</th>
+            <th>Color Name:</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let color of color" class="table-success">
+                <td>{{color.id}}</td>
+                <td>{{color.name}}</td>
+            </tr>
+        </tbody>
+</table>
