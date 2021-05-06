@@ -1,10 +1,14 @@
-
 <div class="container">
+   
     <div class="row">
-        <div class="col-md-3">     <app-brand></app-brand> </div>
-        <div class="col-md-3">     <app-colors></app-colors> </div>
-        <div class="col-md-3">     <app-customers></app-customers> </div>
-        <div class="col-md-3">     <app-cars></app-cars> </div>
+      <div class="col-md-2">
+        <app-brand></app-brand>
+        <app-colors></app-colors>
+      </div>
+  
+      <div class="col md-9">
+        <router-outlet></router-outlet>
+      </div>
     </div>
-    <router-outlet></router-outlet>
-</div>
+  </div>
+  

@@ -7,5 +7,6 @@ export interface car{
     brandName:string;
     modelYear:number;
     dailyPrice:number;
+    carId:number;
 
 }
