@@ -7,6 +7,8 @@ import { BrandComponent } from './components/brand/brand/brand.component';
 import { ColorsComponent } from './components/brand/colors/colors/colors.component';
 import { CustomersComponent } from './components/brand/customers/customers.component';
 import { CarsComponent } from './components/brand/Cars/cars/cars.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { CarsComponent } from './components/brand/Cars/cars/cars.component';
     BrandComponent,
     ColorsComponent,
     CustomersComponent,
-    CarsComponent
+    CarsComponent,
+    PageNotFoundComponent,
+
   ],
   imports: [
     BrowserModule,
